@@ -1,0 +1,710 @@
+{
+  "abstract" : [
+    {
+      "text" : "Stroke a path with the specified line width, depth and material",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use `stroke(width:detail:)` instead",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid",
+        "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh\/stroke(_:width:depth:faces:material:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Euclid",
+    "externalID" : "s:6Euclid4MeshV6stroke_5width5depth5faces8materialAcA4PathV_S2dAC5FacesOs11AnyHashableVSgtFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "stroke"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Euclid4PathV",
+        "text" : "Path"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "width"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "depth"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "faces"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Euclid4MeshV5FacesO",
+        "text" : "Faces"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "material"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Euclid4MeshV8Materiala",
+        "text" : "Material"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6Euclid4MeshV",
+        "text" : "Mesh"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Euclid"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "stroke(_:width:depth:faces:material:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "stroke"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "shape"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Path",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Euclid4PathV",
+              "text" : "Path"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "width"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "depth"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "faces"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh\/Faces",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Euclid4MeshV5FacesO",
+              "text" : "Faces"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .default, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "material"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh\/Material",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Euclid4MeshV8Materiala",
+              "text" : "Material"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil) -> "
+            },
+            {
+              "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6Euclid4MeshV",
+              "text" : "Mesh"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/euclid\/mesh\/stroke(_:width:depth:faces:material:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.charcoaldesign.Euclid/documentation/Euclid": {
+  "abstract" : [
+    {
+      "text" : "Euclid is a library for creating and manipulating 3D geometry using techniques such as extruding or “lathing” 2D paths to create solid 3D shapes, and CSG (Constructive Solid Geometry) to combine or subtract those shapes from one another.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Euclid",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid"
+},
+"doc://com.charcoaldesign.Euclid/documentation/Euclid/Mesh": {
+  "abstract" : [
+    {
+      "text" : "A 3D surface made of polygons.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Mesh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Mesh"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Mesh",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid\/mesh"
+},
+"doc://com.charcoaldesign.Euclid/documentation/Euclid/Mesh/Faces": {
+  "abstract" : [
+    {
+      "text" : "A choice of the face directions that Euclid generates for polygons.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Faces"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh\/Faces",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Faces"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Mesh.Faces",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid\/mesh\/faces"
+},
+"doc://com.charcoaldesign.Euclid/documentation/Euclid/Mesh/Material": {
+  "abstract" : [
+    {
+      "text" : "Material used by the mesh polygons.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Polygon\/Material-swift.typealias",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " for details.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Material"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh\/Material",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Material"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Mesh.Material",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid\/mesh\/material"
+},
+"doc://com.charcoaldesign.Euclid/documentation/Euclid/Mesh/stroke(_:width:depth:faces:material:)": {
+  "abstract" : [
+    {
+      "text" : "Stroke a path with the specified line width, depth and material",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stroke"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Euclid4PathV",
+      "text" : "Path"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "width"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "depth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "faces"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Euclid4MeshV5FacesO",
+      "text" : "Faces"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "material"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Euclid4MeshV8Materiala",
+      "text" : "Material"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Euclid4MeshV",
+      "text" : "Mesh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Mesh\/stroke(_:width:depth:faces:material:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stroke(_:width:depth:faces:material:)",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid\/mesh\/stroke(_:width:depth:faces:material:)"
+},
+"doc://com.charcoaldesign.Euclid/documentation/Euclid/Path": {
+  "abstract" : [
+    {
+      "text" : "A path made up of a sequence of straight line segments between points.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Path"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Path",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Path"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Path",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid\/path"
+},
+"doc://com.charcoaldesign.Euclid/documentation/Euclid/Polygon/Material-swift.typealias": {
+  "abstract" : [
+    {
+      "text" : "Material used by a given polygon.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This can be any type that conforms to ",
+      "type" : "text"
+    },
+    {
+      "code" : "Hashable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", but encoding\/decoding is only supported",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "for the following types: ",
+      "type" : "text"
+    },
+    {
+      "code" : "Color",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "String",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "Int",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "Data",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " or any ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSCodable",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Material"
+    }
+  ],
+  "identifier" : "doc:\/\/com.charcoaldesign.Euclid\/documentation\/Euclid\/Polygon\/Material-swift.typealias",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Material"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Polygon.Material",
+  "type" : "topic",
+  "url" : "\/documentation\/euclid\/polygon\/material-swift.typealias"
+}
+}
+}
